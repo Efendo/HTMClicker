@@ -1,4 +1,3 @@
-
 class Application:
       def __init__(self): # Initialize the Score Display object and the Score
             self.ScoreDisp = Element("ScoreDisp")
