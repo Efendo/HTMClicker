@@ -8,7 +8,7 @@ class Application:
         self.ScoreDisp.remove_class("duration-150")
         self.ScoreDisp.remove_class("rotate-[360deg]")
         self.score += 1
-        self.ScoreDisp.element.innerHTML = self.score
+        self.ScoreDisp.innerHTML = self.score
         if self.score % 100 == 0:
             self.ScoreDisp.add_class("rotate-[360deg]")
             self.ScoreDisp.add_class("transition-all")
