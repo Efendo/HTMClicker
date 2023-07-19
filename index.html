@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-zoom">
+
+  <!--
+
+  This is HTMClicker a HTML - Tailwind clicker game.
+  
+  Made by Efendo: https://github.com/Efendo/
+  Github Repo:  https://github.com/Efendo/HTMClicker/
+
+  -->
+
+  <head>
+      <style>.no-zoom {overflow: hidden;touch-action: manipulation;user-scalable: none;-ms-content-zooming: none;-ms-touch-action: manipulation;}</style>
+      <style>html {width: 100%;height: 100%;}
+      </style>
+      <meta charset="UTF-8">
+      <meta name="description" content="HTML Clicker Game">
+      <meta name="keywords" content="Game,Clicker,Clicker Game, HTML game, HTML,Efendo Github, Efendo, HTMClicker">
+      <meta name="author" content="Efendo">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="icon.ico">
+      <title>HTMClicker</title>
+      <script src="tailwind.js"></script>
+  </head>
+
+  <!--
+
+  hey please check out my other stuff too 🙂 -> https://github.com/Efendo
+  
+  -->
+
+  <body class="flex justify-center bg-teal-500 dark:bg-teal-700">
+      <div class="rounded-lg bg-white dark:bg-black my-16 shadow-2xl border-8 border-black transition-all duration-700">
+        <h6 class="text-center text-black dark:text-white md:text-2xl transition-all duration-700">made by <a href="http://github.com/Efendo">Efendo</a></h6>
+        <h1 class="font-bold text-5xl md:text-7xl text-center dark:text-white transition-all duration-700">HTMClicker</h1>
+        <h1 id="ScoreDisp" class="transition-all text-bold text-center text-8xl md:text-9xl m-9 dark:text-white duration-150">0</h1>
+        <div class="flex justify-center">
+          <button class="transition-all active:text-5xl active:duration-100 md:active:text-7xl md:text-6xl hover:transition-all bg-teal-500 text-4xl text-white px-4 py-2 rounded-full m-9 hover:bg-teal-600 active:bg-teal-700 dark:text-black border-8 border-black hover:rotate-[360deg] duration-700 hover:duration-700" type="button">Click</button>
+        </div>
+      </div>
+      <script src="app.js"></script>
+  </body>
+</html>
